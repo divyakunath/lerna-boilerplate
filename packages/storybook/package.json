@@ -1,0 +1,43 @@
+{
+  "name": "storybook",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "DIVYA KUNATH<divyakunath@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/storybook.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/storybook.test.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@storybook/addon-styling": "^1.3.5",
+    "@types/react": "^18.2.16",
+    "component-library": "file:../component-library",
+    "react": "^18.2.0",
+    "storybook": "^7.1.1",
+    "styled-components": "^6.0.5",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@storybook/addon-essentials": "^7.1.1",
+    "@storybook/addon-interactions": "^7.1.1",
+    "@storybook/addon-links": "^7.1.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.1.1",
+    "@storybook/react": "^7.1.1",
+    "@storybook/react-webpack5": "^7.1.1",
+    "@storybook/testing-library": "^0.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
